@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_main.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/item_event.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_event.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_subject_detail.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_subject_detail.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_login.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/fragment_profile.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_add_event.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_add_event.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/item_schedule.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/item_subject.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_register.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/fragment_search.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/fragment_schedule.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/activity_splash.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-mergeDebugResources-66:/layout/fragment_calendar.xml",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_calendar.xml"
+    }
+]

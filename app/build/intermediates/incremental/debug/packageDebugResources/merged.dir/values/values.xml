@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="dark_text">#212121</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="secondary_text">#757575</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="ugd_dark_red">#D00914</color>
+    <color name="ugd_red">#E81B26</color>
+    <color name="ugd_red_light">#FFEBEE</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">UGD Scheduler</string>
+    <string name="app_slogan">Твојот распоред, секогаш со тебе</string>
+    <string name="calendar">Календар</string>
+    <string name="cancel">Откажи</string>
+    <string name="gcm_defaultSenderId" translatable="false">1040408795867</string>
+    <string name="google_api_key" translatable="false">AIzaSyDo4BgjL5SCWv-NF60jxQ7np06Vc0NNIb4</string>
+    <string name="google_app_id" translatable="false">1:1040408795867:android:427973cf4b573309ebcafe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDo4BgjL5SCWv-NF60jxQ7np06Vc0NNIb4</string>
+    <string name="google_storage_bucket" translatable="false">ugd-scheduler.firebasestorage.app</string>
+    <string name="login">Најави се</string>
+    <string name="logout">Одјави се</string>
+    <string name="navigate">Покажи рута</string>
+    <string name="no_classes_today">Немаш часови денес 🎉</string>
+    <string name="no_events">Нема настани за овој ден</string>
+    <string name="no_subjects_found">Нема пронајдено предмети</string>
+    <string name="profile">Профил</string>
+    <string name="project_id" translatable="false">ugd-scheduler</string>
+    <string name="register">Регистрирај се</string>
+    <string name="save">Зачувај</string>
+    <string name="schedule">Часови</string>
+    <string name="search">Пребарај</string>
+    <string name="search_hint">Пребарај предмет...</string>
+    <style name="Theme.UGDScheduler" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ugd_red</item>
+        <item name="colorPrimaryVariant">@color/ugd_dark_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/ugd_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/ugd_dark_red</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="actionBarStyle">@style/UGDActionBar</item>
+    </style>
+    <style name="Theme.UGDScheduler.Splash" parent="Theme.UGDScheduler">
+        <item name="android:windowBackground">@color/ugd_red</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="UGDActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/ugd_red</item>
+        <item name="titleTextStyle">@style/UGDActionBarTitle</item>
+    </style>
+    <style name="UGDActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="UGDButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/ugd_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="UGDButtonOutline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/ugd_red</item>
+        <item name="android:textColor">@color/ugd_red</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1040408795867</string>
+    <string name="google_api_key" translatable="false">AIzaSyDo4BgjL5SCWv-NF60jxQ7np06Vc0NNIb4</string>
+    <string name="google_app_id" translatable="false">1:1040408795867:android:427973cf4b573309ebcafe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDo4BgjL5SCWv-NF60jxQ7np06Vc0NNIb4</string>
+    <string name="google_storage_bucket" translatable="false">ugd-scheduler.firebasestorage.app</string>
+    <string name="project_id" translatable="false">ugd-scheduler</string>
+</resources>

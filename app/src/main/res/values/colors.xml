@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ugd_red">#E81B26</color>
+    <color name="ugd_dark_red">#D00914</color>
+    <color name="ugd_red_light">#FFEBEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="success_green">#2E7D32</color>
+</resources>

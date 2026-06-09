@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Назив на настанот *"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginBottom="16dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_event_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Event Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тип на настан:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_text"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rb_colloquium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Колоквиум"
+                android:textSize="13sp"
+                android:buttonTint="@color/ugd_red"
+                android:layout_marginEnd="8dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Испит"
+                android:textSize="13sp"
+                android:buttonTint="@color/ugd_red"
+                android:layout_marginEnd="8dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рок"
+                android:textSize="13sp"
+                android:buttonTint="@color/ugd_red"
+                android:layout_marginEnd="8dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Белешка"
+                android:textSize="13sp"
+                android:buttonTint="@color/ugd_red"
+                android:checked="true"/>
+
+        </RadioGroup>
+
+        <!-- Subject Search -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Предмет (опционално)"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginBottom="4dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_subject_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ListView
+            android:id="@+id/lv_subject_suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/light_gray"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tv_selected_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Датум: (кликни за промена)"
+            android:textSize="14sp"
+            android:textColor="@color/ugd_red"
+            android:background="@color/light_gray"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Time -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tv_selected_time"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Избери време"
+                android:textSize="14sp"
+                android:textColor="@color/secondary_text"
+                android:background="@color/light_gray"
+                android:paddingHorizontal="12dp"/>
+
+            <Button
+                android:id="@+id/btn_pick_time"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Избери"
+                android:textSize="12sp"
+                android:backgroundTint="@color/ugd_red"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Reminder -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Потсетник"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginBottom="24dp">
+            <AutoCompleteTextView
+                android:id="@+id/ac_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="ЗАЧУВАЈ НАСТАН"
+            android:backgroundTint="@color/ugd_red"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+</ScrollView>

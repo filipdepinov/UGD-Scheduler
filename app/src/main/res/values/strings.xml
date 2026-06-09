@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UGD Scheduler</string>
+    <string name="app_slogan">Твојот распоред, секогаш со тебе</string>
+    <string name="login">Најави се</string>
+    <string name="register">Регистрирај се</string>
+    <string name="logout">Одјави се</string>
+    <string name="save">Зачувај</string>
+    <string name="cancel">Откажи</string>
+    <string name="profile">Профил</string>
+    <string name="schedule">Часови</string>
+    <string name="search">Пребарај</string>
+    <string name="calendar">Календар</string>
+    <string name="no_classes_today">Немаш часови денес 🎉</string>
+    <string name="no_subjects_found">Нема пронајдено предмети</string>
+    <string name="no_events">Нема настани за овој ден</string>
+    <string name="search_hint">Пребарај предмет...</string>
+    <string name="navigate">Покажи рута</string>
+</resources>

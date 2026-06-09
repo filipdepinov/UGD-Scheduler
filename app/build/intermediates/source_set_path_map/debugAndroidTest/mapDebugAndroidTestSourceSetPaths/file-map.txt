@@ -1,0 +1,6 @@
+com.ugd.scheduler.test.app-jetified-annotation-experimental-1.3.0-0 C:\Users\Filip\.gradle\caches\transforms-3\2531fdcdc3ff04192116e1fadd23162d\transformed\jetified-annotation-experimental-1.3.0\res
+com.ugd.scheduler.test.app-jetified-core-1.5.0-1 C:\Users\Filip\.gradle\caches\transforms-3\6d07c242dd9a5c334f8b0b95e4a78339\transformed\jetified-core-1.5.0\res
+com.ugd.scheduler.test.app-androidTest-2 C:\Users\Filip\Desktop\UGDScheduler\app\build\generated\res\resValues\androidTest\debug
+com.ugd.scheduler.test.app-mergeDebugAndroidTestResources-3 C:\Users\Filip\Desktop\UGDScheduler\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ugd.scheduler.test.app-mergeDebugAndroidTestResources-4 C:\Users\Filip\Desktop\UGDScheduler\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ugd.scheduler.test.app-debugAndroidTest-5 C:\Users\Filip\Desktop\UGDScheduler\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

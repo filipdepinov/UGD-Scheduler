@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_add_event.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_add_event.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_splash.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_subject_detail.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_subject_detail.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_register.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_fragment_profile.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_item_schedule.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/drawable_nav_item_color.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/drawable/nav_item_color.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_fragment_calendar.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_fragment_search.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_fragment_schedule.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/drawable_ic_notification.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_main.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_item_event.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_event.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_item_subject.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/layout_activity_login.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.ugd.scheduler.app-debug-67:/drawable_circle_white_bg.xml.flat",
+        "source": "com.ugd.scheduler.app-main-69:/drawable/circle_white_bg.xml"
+    }
+]

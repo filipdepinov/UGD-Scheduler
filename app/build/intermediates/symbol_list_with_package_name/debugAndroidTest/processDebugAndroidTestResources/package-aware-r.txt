@@ -1,0 +1,3 @@
+com.ugd.scheduler.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
