@@ -1,86 +1,25 @@
-# TapIn — NFC Систем за Евиденција на Присуство
-
-## Опис на проектот
-
-TapIn е дистрибуиран систем за евиденција на присуство во училница базиран на NFC (Near Field Communication) технологија. Системот овозможува студентите да се регистрираат на час со едноставно допирање на нивниот телефон до телефонот на наставникот, без потреба од рачно пополнување на листи.
-
-Системот се состои од 4 компоненти:
-
-- **Student Android App** — Студентската апликација емитира шифриран NFC токен преку HCE (Host Card Emulation)
-- **Teacher Android App** — Наставничката апликација го чита NFC токенот и го валидира преку backend-от
-- **Node.js Backend** — REST API со JWT автентикација, распореден на Railway
-- **React Dashboard** — Веб панел за администратори, наставници и студенти со графикони и статистики
-
-## Автори
-
-| Име и Презиме | Индекс |
-|---------------|--------|
-| Филип Депинов | 102701 |
-| Алек Даниловски | 102729 |
-
-## Технологии
-
-### Android апликации
-- Kotlin + MVVM архитектура
-- Hilt (Dependency Injection)
-- Retrofit (HTTP клиент)
-- Room (локална база на податоци)
-- Navigation Component
-- StateFlow + Coroutines
-- HCE (Host Card Emulation) за NFC емитување
-- WorkManager за синхронизација во позадина
-
-### Backend
-- Node.js 20 + Express.js
-- Prisma ORM
-- PostgreSQL (Supabase)
-- JWT автентикација
-- AES-256 шифрирање на NFC токени
-- Swagger UI документација
-
-### Dashboard
-- React 18 + Vite
-- TailwindCSS
-- Chart.js (графикони)
-- React Router v6
-- Axios
-
-### Инфраструктура
-- **База на податоци:** Supabase (PostgreSQL) — EU West (Paris)
-- **Backend:** Railway — https://tapin-production-4955.up.railway.app
-- **Верзионирање:** GitHub — https://github.com/filipdepinov/TapIN
-
-## Безбедност
-
-- Секој NFC токен е шифриран со AES-256 и важи само 5 минути
-- Токените се еднократни — повторна употреба е невозможна (replay attack заштита)
-- JWT токени со RBAC (Admin / Teacher / Student) улоги
-- bcrypt хаширање на лозинки (12 рунди)
+# UGD Scheduler — Мобилна Апликација за Android
 
 
-### Android апликации
-- Отвори ги TapIn-Student и TapIn-Teacher во Android Studio
-- Поврзи уред или стартувај емулатор
-- Кликни Run ▶
+## 📱 Преглед на проектот
+**UGD Scheduler** е апликација дизајнирана за студенти со цел да ги обедини академските распореди, личните календари за учење и директориумите на курсевите во еден центар. Изградена е во Kotlin со следење на MVVM архитектура, овозможувајќи им на студентите да останат организирани, да ги следат рокови за испити/задачи и да добиваат известувања базирани на локацијата кога се наоѓаат на кампусот.
 
-## Тест акредитиви
+## 🛠️ Клучни функционалности (Исполнување на задачата)
+Апликацијата ги исполнува сите критериуми побарани во проектната задача преку следните функционални модули:
 
-| Улога | Е-пошта | Лозинка |
-|-------|---------|---------|
-| Admin | admin@tapin.app | Admin@1234 |
-| Наставник | teacher@tapin.app | Teacher@1234 |
-| Студент | alice@tapin.app | Student@1234 |
+* **Автентикација и кориснички профили:** Безбедна најава и регистрација со е-пошта и лозинка преку Firebase Authentication, овозможувајќи им на студентите да го зачуваат својот распоред на различни уреди.
+* **Динамичен директориум и пребарување во реално време:** Каталог на предмети, факултети и контакт информации за професорите што може да се пребарува и филтрира со динамични ажурирања на корисничкиот интерфејс.
+* **Следење на настани со локално зачувување (CRUD операции):** Наменска рамка за распоред што им овозможува на корисниците да додаваат, прегледуваат, ажурираат и бришат рокови за домашни задачи, испити и лични обврски.
+* **Geofencing и Google локациски услуги:** Имплементира Google Location Services и Geofencing API за активирање на автоматизирани push-известувања во моментот кога студентот ќе влезе во периметарот на универзитетскиот кампус.
+* **Асинхрона обработка и синхронизација:** Ги користи Android `WorkManager` и `BroadcastReceivers` за извршување во позадина, осигурувајќи дека локалните распореди и известувањата за кампусот остануваат синхронизирани без излишно трошење на батеријата.
 
-## Користени библиотеки и референци
+## 🏗️ Архитектура и технологии
+Проектот е изграден со користење на робусни технологии со акцент на поделба на одговорностите и стабилност на апликацијата:
 
-- [Prisma ORM](https://www.prisma.io/)
-- [Supabase](https://supabase.com/)
-- [Railway](https://railway.app/)
-- [Hilt — Dependency Injection](https://dagger.dev/hilt/)
-- [Android NFC / HCE документација](https://developer.android.com/guide/topics/connectivity/nfc/hce)
-- [Chart.js](https://www.chartjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [React Router](https://reactrouter.com/)
-- [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
-- [Room Database](https://developer.android.com/training/data-storage/room)
-- [Retrofit](https://square.github.io/retrofit/)
+* **Програмски јазик:** 100% Kotlin
+* **Архитектура:** MVVM (Model-View-ViewModel) со принципи на Clean Architecture
+* **UI Рамка:** Jetpack Architecture Components (ViewBinding, ViewModel, LiveData, Navigation Component)
+* **Бекенд / База на податоци:** Firebase Cloud Firestore & Firebase Auth
+* **Локациски услуги:** Google Play Services Location (Geofencing API)
+* **Процесирање во позадина:** Android WorkManager
+
